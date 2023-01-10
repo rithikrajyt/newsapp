@@ -10,7 +10,8 @@ export class News extends Component {
   }
 
   static propTypes = {
-    country : PropTypes.string
+    country : PropTypes.string,
+    category : PropTypes.string
   }
 
   constructor(){
